@@ -1,0 +1,129 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.9;
+  background-color: #fff;
+  background-image: url("..//bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-brand{
+font-family: 'Tenor Sans', sans-serif;
+color: #B762C1;
+font-size: 25px;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 2px;
+}
+.navbar-nav  li a:hover {
+    color: #9be15d !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 75px;
+  color: #fff;
+  background-color: #37383d;
+}
+
+h1 {
+  font-size: 3.8rem;
+  line-height: 1.55;
+  font-weight: 600;
+}
+h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #EEF1FF;
+  line-height: 1.7;
+  letter-spacing: 1.2px;
+}
+.highlight {
+  position: relative;
+}
+
+.highlight::after {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  transform: scale(1.07, 1.05) skewX(-15deg);
+  background-image: linear-gradient(to top left, #0096FF, #99FEFF);
+}
+.nav__sec{
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s;
+}
+ul {
+    list-style-type: disc;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+.highlight2 {
+  position: relative;
+}
+
+.highlight2::after {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  transform: scale(1.07, 1.05) skewX(-15deg);
+  background-image: linear-gradient(to top left, #39b385, #9be15d);
+}
+
+.color{
+  color:#51C4D3;
+}
+
+.footer__copyright {
+  font-size: 1.4rem;
+  color: #aaa;
+  text-align: center;
+  margin-top: 25px;
+}
+.footer__sec {
+  color: #eee;
+  text-decoration: none;
+}
