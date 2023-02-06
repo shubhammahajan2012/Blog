@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 app.use(express.static("public"));
 //Mongoose Setup
 const mongoose = require('mongoose');
-mongoose.connect("mongodb+srv://admin-shups:shups123@cluster0.rxtfytw.mongodb.net/blogDB");
+mongoose.connect("mongodb+srv://admin-shups:Test123@cluster0.rxtfytw.mongodb.net/blogDB");
 
 
 //Home page, Contact page and About page Content
